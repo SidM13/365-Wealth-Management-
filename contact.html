@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | 365 Wealth Management</title>
+<meta name="description" content="Begin your financial journey with 365 Wealth Management. Offices in Faridabad and Gurugram. Call or WhatsApp +91 99682 82769.">
+<meta name="theme-color" content="#0B1F3A">
+<link rel="icon" href="assets/img/logo/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/chatbot.js" defer></script>
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="guilloche" data-color="#E3C77E" aria-hidden="true"></div>
+    <div class="container" style="position:relative">
+      <div class="crumbs"><a href="index.html">Home</a> / Contact Us</div>
+      <span class="eyebrow">Contact Us</span>
+      <h1>Begin Your Financial Journey</h1>
+      <p class="lead">Tell us a little about yourself and what you're looking for. We'll get in touch to understand your goals.</p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="contact-actions">
+        <a class="contact-action" data-tel href="#"><span class="icon-badge" data-icon="phone"></span>Call Now<small>+91 99682 82769</small></a>
+        <a class="contact-action" data-wa href="#"><span class="icon-badge" data-icon="whatsapp"></span>WhatsApp Us<small>Quick replies on chat</small></a>
+        <a class="contact-action" data-mail="Enquiry from website" href="#"><span class="icon-badge" data-icon="mail"></span>Email Us<small>mrpankajmanchanda@gmail.com</small></a>
+        <a class="contact-action" href="#enquiry" onclick="var s=document.querySelector('[name=message]');if(s&&!s.value)s.value='I would like to request a meeting.';"><span class="icon-badge" data-icon="meeting"></span>Request a Meeting<small>In person or online</small></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="enquiry" style="padding-top:24px">
+    <div class="container split top">
+      <div>
+        <div class="card" style="margin-bottom:20px">
+          <h3 style="margin-bottom:4px">365 Wealth Management</h3>
+          <p class="tagline" style="font-size:12px;margin-bottom:22px">Plan<span>|</span>Invest<span>|</span>Grow<span>|</span>Secure</p>
+          <div class="office" style="margin-bottom:22px"><span class="icon-badge" data-icon="pin"></span><div><h4>Registered Office</h4><address>House No. 50, Sector 8<br>Faridabad – 121006<br>Haryana, India</address></div></div>
+          <div class="office" style="margin-bottom:22px"><span class="icon-badge" data-icon="pin"></span><div><h4>Branch Office</h4><address>House No. 414, Sector 40<br>Gurugram – 122003<br>Haryana, India</address></div></div>
+          <div class="office" style="margin-bottom:22px"><span class="icon-badge" data-icon="phone"></span><div><h4>Mobile</h4><a data-tel href="#">+91 99682 82769</a></div></div>
+          <div class="office"><span class="icon-badge" data-icon="mail"></span><div><h4>Email</h4><a data-mail href="#">mrpankajmanchanda@gmail.com</a></div></div>
+        </div>
+        <div class="badge-arn"><span data-icon="award"></span><span><strong>AMFI Registered Mutual Fund Distributor</strong><span>ARN: 364547</span></span></div>
+      </div>
+
+      <div class="card">
+        <h2 style="font-size:2rem">Enquiry Form</h2>
+        <p style="margin-bottom:22px">Fields marked * are required.</p>
+        <form class="form" id="enquiry-form" novalidate>
+          <div class="row">
+            <div class="f"><label for="f-name">Name *</label><input id="f-name" name="name" autocomplete="name"><div class="error">Please enter your name.</div></div>
+            <div class="f"><label for="f-mobile">Mobile Number *</label><input id="f-mobile" name="mobile" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile"><div class="error">Please enter a valid 10-digit Indian mobile number.</div></div>
+          </div>
+          <div class="row">
+            <div class="f"><label for="f-email">Email *</label><input id="f-email" name="email" type="email" autocomplete="email"><div class="error">Please enter a valid email address.</div></div>
+            <div class="f"><label for="f-city">City *</label><input id="f-city" name="city" autocomplete="address-level2"><div class="error">Please enter your city.</div></div>
+          </div>
+          <div class="row">
+            <div class="f"><label for="f-age">Age Group *</label>
+              <select id="f-age" name="age"><option value="">Select</option><option>Below 25</option><option>25–34</option><option>35–44</option><option>45–54</option><option>55–64</option><option>65 and above</option></select><div class="error">Please select your age group.</div></div>
+            <div class="f"><label for="f-req">Investment Requirement *</label>
+              <select id="f-req" name="requirement"><option value="">Select</option><option>Mutual Funds</option><option>SIP</option><option>Portfolio Review</option><option>NPS</option><option>Retirement Planning</option><option>SIF</option><option>PMS</option><option>AIF</option><option>GIFT City Funds</option><option>Unlisted Shares</option><option>Other</option></select><div class="error">Please select a requirement.</div></div>
+          </div>
+          <div class="f"><label for="f-msg">Message</label><textarea id="f-msg" name="message" placeholder="Tell us about your goals or questions (optional)"></textarea></div>
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="f"><label class="consent"><input type="checkbox" name="consent"> <span>I authorise 365 Wealth Management and its representatives to contact me by call, SMS, WhatsApp or email regarding my enquiry and related investment products. This consent overrides any registration under DND/NDNC. I understand that 365 Wealth Management is an AMFI Registered Mutual Fund Distributor (ARN 364547), not a SEBI Registered Investment Adviser, and that my information will be handled as described in the <a href="privacy.html">Privacy Policy</a>.</span></label><div class="error">Please provide your consent to proceed.</div></div>
+          <button class="btn btn-gold" type="submit" style="justify-self:start">Submit Enquiry</button>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm alt">
+    <div class="container">
+      <div class="disclosure"><p><strong>Mutual Fund investments are subject to market risks, read all scheme related documents carefully.</strong> 365 Wealth Management does not guarantee returns and does not provide investment advisory services for a fee.</p></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+</body>
+</html>

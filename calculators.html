@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Financial Calculators | 365 Wealth Management</title>
+<meta name="description" content="SIP, step-up SIP, lump-sum, retirement corpus, NPS, SWP, future value and goal planning calculators. Illustrative calculations only.">
+<meta name="theme-color" content="#0B1F3A">
+<link rel="icon" href="assets/img/logo/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/config.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/calculators.js" defer></script>
+<script src="assets/js/chatbot.js" defer></script>
+</head>
+<body data-page="calculators">
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="guilloche" data-color="#E3C77E" aria-hidden="true"></div>
+    <div class="container" style="position:relative">
+      <div class="crumbs"><a href="index.html">Home</a> / Financial Calculators</div>
+      <span class="eyebrow">Financial Calculators</span>
+      <h1>Explore the numbers behind your goals.</h1>
+      <p class="lead">Interactive tools to understand how amount, time, return assumptions and inflation interact. Use them as a starting point for a conversation, not as a forecast.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="illus-note" role="note" style="margin-bottom:24px;font-size:14.5px"><span data-icon="alert"></span><span>Illustrative calculation only. Actual investment returns may vary and are not guaranteed.</span></div>
+      <div class="calc-tabs" role="tablist" aria-label="Calculators">
+        <button role="tab" data-tab="sip" aria-controls="panel-sip">SIP</button>
+        <button role="tab" data-tab="stepup" aria-controls="panel-stepup">Step-Up SIP</button>
+        <button role="tab" data-tab="lumpsum" aria-controls="panel-lumpsum">Lump-Sum</button>
+        <button role="tab" data-tab="retirement" aria-controls="panel-retirement">Retirement Corpus</button>
+        <button role="tab" data-tab="nps" aria-controls="panel-nps">NPS</button>
+        <button role="tab" data-tab="swp" aria-controls="panel-swp">SWP</button>
+        <button role="tab" data-tab="fv" aria-controls="panel-fv">Future Value</button>
+        <button role="tab" data-tab="goal" aria-controls="panel-goal">Goal Planning</button>
+      </div>
+      <div class="calc-panel" id="panel-sip" role="tabpanel"><div class="calc" data-calc="sip"></div></div>
+      <div class="calc-panel" id="panel-stepup" role="tabpanel" hidden><div class="calc" data-calc="stepup" data-title="Step-Up SIP Calculator"></div></div>
+      <div class="calc-panel" id="panel-lumpsum" role="tabpanel" hidden><div class="calc" data-calc="lumpsum"></div></div>
+      <div class="calc-panel" id="panel-retirement" role="tabpanel" hidden><div class="calc" data-calc="retirement"></div></div>
+      <div class="calc-panel" id="panel-nps" role="tabpanel" hidden><div class="calc" data-calc="nps"></div></div>
+      <div class="calc-panel" id="panel-swp" role="tabpanel" hidden><div class="calc" data-calc="swp"></div></div>
+      <div class="calc-panel" id="panel-fv" role="tabpanel" hidden><div class="calc" data-calc="fv"></div></div>
+      <div class="calc-panel" id="panel-goal" role="tabpanel" hidden><div class="calc" data-calc="goal"></div></div>
+    </div>
+  </section>
+
+  <section class="section-sm alt">
+    <div class="container">
+      <div class="disclosure"><h4>About these calculators</h4><p>Results are based solely on the assumptions you enter and use simplified methods: monthly compounding at one-twelfth of the annual rate for SIP/SWP/NPS, annual compounding for lump-sum and future value, and no taxes, costs or exit loads. They do not represent the performance of any scheme or product and are not investment advice. NPS annuity and withdrawal proportions are user assumptions; refer to current PFRDA regulations. <strong>Mutual Fund investments are subject to market risks, read all scheme related documents carefully.</strong></p></div>
+    </div>
+  </section>
+
+  <section class="section cta-band">
+    <div class="guilloche" data-color="#E3C77E" aria-hidden="true"></div>
+    <div class="container" style="position:relative">
+      <h2>Turn numbers into a plan.</h2>
+      <p class="cta-sub">Share your goals and we'll help you think through the right approach.</p>
+      <div class="btn-row"><a class="btn btn-gold" href="contact.html">Start Your Investment Journey</a><a class="btn btn-ghost" href="contact.html?type=Retirement%20Planning">Plan Your Retirement</a></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+</body>
+</html>

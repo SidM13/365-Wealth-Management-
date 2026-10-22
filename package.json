@@ -1,0 +1,14 @@
+{
+  "name": "365-wealth-management",
+  "private": true,
+  "type": "module",
+  "description": "365 Wealth Management website with Claude-powered assistant (Netlify)",
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "node tests/calculators.test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.1.0",
+    "zod": "^4.6.7"
+  }
+}
